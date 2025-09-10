@@ -1,0 +1,35 @@
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    /* animation: moni 2s linear; */
+    position: relative;
+}
+.box1{
+    height: 150px;
+    width: 150px;
+    
+    animation: moni 2s infinite;
+    position: relative;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    /* background-color: rgb(17, 231, 31); */
+    /* animation: moni 4s ease-in; */
+    position: relative;
+}
+@keyframes moni{
+    0%{
+        left: 0px;
+        
+    }
+    50%{
+        
+        bottom: 200px;
+    }
+    100%{
+        top: 400px;
+        
+    }
+}

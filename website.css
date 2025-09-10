@@ -1,0 +1,313 @@
+body{
+    height: 100svh;
+    background-color: rgb(230, 235, 239);
+}
+/* .navbar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(104, 82, 82);
+    box-sizing: border-box;
+}
+.logosection{
+    margin-left: 20px;
+
+}
+.menu{
+    position: absolute;
+    margin-left: 690px;
+    gap: 30px;
+    display: flex;
+    font-size: 15px;
+ }
+ .menu a{
+    text-decoration: none;
+ }
+ .t1{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: orange;
+    color: #f9f0f8;
+    padding-top: 10px 25px;
+ }
+  menu:hover{
+   background-color: orangered;
+   background-size: 400%;
+  } */
+ .box{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin-top: 70px;
+
+ }
+ .box span{
+    color: yellow;
+ }
+ .b1{
+    text-align: start;
+    font-size: 50px;
+    height: 500px;
+    width: 50%px;
+    border-radius: 2px solid black;
+ }
+ .b2{
+    height: 500px;
+    width: 50%px;
+    border-radius: 2px solid black;
+ }
+ .box h6{
+    font-size: 15px;
+    color: grey;
+ }
+ .btn{
+   display: inline-block;
+    height: 50px;
+    width: 100px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background-color: rgb(241, 129, 24);
+    border-radius: 30px;
+    text-align: center;
+ }
+ .project{
+   font-size: 25px;
+   text-transform: capitalize;
+   text-align: center;
+   color: rgb(54, 53, 53);
+ }
+ .text{
+   font-size: 15px;
+   color: gray;
+   text-align: center;
+
+ }
+ .card-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+ }
+ .card{
+   width: 325px;
+   background-color: #f0f0f0;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   margin: 20px;
+ }
+ .card img{
+   width: 100%;
+   height: auto;
+ }
+ .card-content h4{
+   font-size: 18px;
+   font-style: normal;
+   color: rgb(50, 49, 49);
+
+ }
+ .card-content p{
+   font-size: 15px;
+   font-style: normal;
+   color: gray;
+   line-height: 1.3;;
+ }
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+   display: inline-block;
+   padding: 8px 16px;
+   background-color: #f9f0f8;
+   border-radius: 20px;
+   text-decoration: none;
+   
+}
+.card-container-1{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+ }
+ .rec p{
+   font-size: 15px;
+   text-transform: capitalize;
+   text-align: center;
+   color: gray;
+ }
+ .rec h2{
+   font-size: 25px;
+   text-transform: capitalize;
+   text-align: center;
+   color: rgb(54, 53, 53);
+ }
+ .cards{
+ display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+  
+ }
+ .card-0{
+  width: 50px;
+   height: 300px;
+   background-color:white;
+   /* border-radius: 8px; */
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   margin: 20px;
+   text-align: left;
+
+  
+ }
+ .card-1{
+   width: 300px;
+   height: 300px;
+   background-color:white;
+   /* border-radius: 8px; */
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   margin: 20px;
+ }
+ .card-2{
+   width: 300px;
+   height: 300px;
+   background-color:white;
+   /* border-radius: 8px; */
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   margin: 20px;
+ }
+ .card-3{
+   width: 300px;
+   height: 300px;
+   background-color:white;
+   /* border-radius: 8px; */
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   margin: 20px;
+ }
+ .card-4{
+  width: 50px;
+   height: 300px;
+   background-color:white;
+   /* border-radius: 8px; */
+   overflow: hidden;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+   margin: 20px;
+   text-align: left;
+
+  
+ }
+ .icons{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: goldenrod;
+ }
+ .cards p{
+  text-align: center;
+ }
+ .cards img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+ }
+ .img h2{
+  text-align: center;
+  margin-right: -80px;
+  margin-top: -60px;
+ }
+ .img p{
+  text-align: center;
+  margin-right: -80px;
+  margin-top: -15px;
+ }
+ .info p{
+  text-align:left;
+  font-size: 50px;
+  color: black;
+  margin-left: 180px;
+ }
+ .contactform{
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size: 20px;
+    color: #1f5c81;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    /* position: relative; */
+    width:100%;
+    /* margin-top: 50px; */
+}
+.contactform .inputbox input,
+.contactform .inputbox input{
+    width: 100%;
+    padding: 50px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 19px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#666;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: #d12b9f;
+    font-size: 12px;
+    transform: translatey(-20px);
+}
+input[type="text"], textarea {
+  background-color: #e6f7ff; /* Light blue background */
+  border: 2px solid white; /* Blue border */
+  color: #333;               /* Text color */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 300px;              /* Adjust as needed */
+}
+.contactform .inputbox input[type=submit]{
+    width: 100px;
+    background: #ea8b17;
+    color: #0e0b0b;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width:991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 20px;
+    }
+    .container .contactinfo{
+        width: 200%;
+    }
+}
